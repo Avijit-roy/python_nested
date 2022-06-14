@@ -12,7 +12,6 @@ if __name__ == '__main__':
     a = record[0][1]
     b = record[0][1]
     for i in range(len(record)):
-        print(i)
         if record[i][1] <= b:
             a = b
             b = record[i][1]
